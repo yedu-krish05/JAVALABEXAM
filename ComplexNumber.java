@@ -9,7 +9,6 @@ class ComplexNumber {
         int realSum = this.real + c.real; 
         int imaginarySum = this.imaginary + c.imaginary; 
         System.out.println("Sum = " + realSum + " + " + imaginarySum + "i"); 
-
     } 
     public static void main(String[] args) { 
         ComplexNumber c1 = new ComplexNumber(4, 5); 
